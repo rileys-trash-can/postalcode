@@ -1,6 +1,6 @@
 package plz
 
-var schleswig_holstein_map = map[string]PLZ{
+var Schleswig_holstein_map = map[string]PLZ{
 	"Aasbuttel":                        PLZ{Name: "Aasbuttel", Code: []int{25560}},
 	"Achterwehr":                       PLZ{Name: "Achterwehr", Code: []int{24239}},
 	"Achtrup":                          PLZ{Name: "Achtrup", Code: []int{25917}},
@@ -1117,7 +1117,7 @@ var schleswig_holstein_map = map[string]PLZ{
 	"Zarpen":                                       PLZ{Name: "Zarpen", Code: []int{23619}},
 	"Ziethen":                                      PLZ{Name: "Ziethen", Code: []int{23911}},
 }
-var schleswig_holstein_slice = []PLZ{
+var Schleswig_holstein_slice = []PLZ{
 	PLZ{Name: "Aasbuttel", Code: []int{25560}},
 	PLZ{Name: "Achterwehr", Code: []int{24239}},
 	PLZ{Name: "Achtrup", Code: []int{25917}},

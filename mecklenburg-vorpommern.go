@@ -1,6 +1,6 @@
 package plz
 
-var mecklenburg_vorpommern_map = map[string]PLZ{
+var Mecklenburg_vorpommern_map = map[string]PLZ{
 	"Adamshoffnung":             PLZ{Name: "Adamshoffnung", Code: []int{17213}},
 	"Admannshagen-Bargeshagen":  PLZ{Name: "Admannshagen-Bargeshagen", Code: []int{18211}},
 	"Ahlbeck":                   PLZ{Name: "Ahlbeck", Code: []int{17375, 17419}},
@@ -948,7 +948,7 @@ var mecklenburg_vorpommern_map = map[string]PLZ{
 	"Zusow":                     PLZ{Name: "Zusow", Code: []int{23992}},
 	"Zussow":                    PLZ{Name: "Zussow", Code: []int{17495}},
 }
-var mecklenburg_vorpommern_slice = []PLZ{
+var Mecklenburg_vorpommern_slice = []PLZ{
 	PLZ{Name: "Adamshoffnung", Code: []int{17213}},
 	PLZ{Name: "Admannshagen-Bargeshagen", Code: []int{18211}},
 	PLZ{Name: "Ahlbeck", Code: []int{17375, 17419}},

@@ -1,6 +1,6 @@
 package plz
 
-var bayern_map = map[string]PLZ{
+var Bayern_map = map[string]PLZ{
 	"Abenberg":                            PLZ{Name: "Abenberg", Code: []int{91183}},
 	"Abensberg":                           PLZ{Name: "Abensberg", Code: []int{93326}},
 	"Absberg":                             PLZ{Name: "Absberg", Code: []int{91720}},
@@ -2040,7 +2040,7 @@ var bayern_map = map[string]PLZ{
 	"Zusmarshausen":                       PLZ{Name: "Zusmarshausen", Code: []int{86441}},
 	"Zwiesel":                             PLZ{Name: "Zwiesel", Code: []int{94227}},
 }
-var bayern_slice = []PLZ{
+var Bayern_slice = []PLZ{
 	PLZ{Name: "Abenberg", Code: []int{91183}},
 	PLZ{Name: "Abensberg", Code: []int{93326}},
 	PLZ{Name: "Absberg", Code: []int{91720}},

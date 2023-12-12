@@ -1,6 +1,6 @@
 package plz
 
-var hessen_map = map[string]PLZ{
+var Hessen_map = map[string]PLZ{
 	"Aarbergen":                           PLZ{Name: "Aarbergen", Code: []int{65326}},
 	"Abtsteinach":                         PLZ{Name: "Abtsteinach", Code: []int{69518}},
 	"Ahnatal":                             PLZ{Name: "Ahnatal", Code: []int{34292}},
@@ -439,7 +439,7 @@ var hessen_map = map[string]PLZ{
 	"Zierenberg":             PLZ{Name: "Zierenberg", Code: []int{34289}},
 	"Zwingenberg":            PLZ{Name: "Zwingenberg", Code: []int{64673}},
 }
-var hessen_slice = []PLZ{
+var Hessen_slice = []PLZ{
 	PLZ{Name: "Aarbergen", Code: []int{65326}},
 	PLZ{Name: "Abtsteinach", Code: []int{69518}},
 	PLZ{Name: "Ahnatal", Code: []int{34292}},

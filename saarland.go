@@ -1,6 +1,6 @@
 package plz
 
-var saarland_map = map[string]PLZ{
+var Saarland_map = map[string]PLZ{
 	"Beckingen":           PLZ{Name: "Beckingen", Code: []int{66701}},
 	"Bexbach":             PLZ{Name: "Bexbach", Code: []int{66450}},
 	"Blieskastel":         PLZ{Name: "Blieskastel", Code: []int{66440}},
@@ -54,7 +54,7 @@ var saarland_map = map[string]PLZ{
 	"Wallerfangen":        PLZ{Name: "Wallerfangen", Code: []int{66798}},
 	"Weiskirchen":         PLZ{Name: "Weiskirchen", Code: []int{66709}},
 }
-var saarland_slice = []PLZ{
+var Saarland_slice = []PLZ{
 	PLZ{Name: "Beckingen", Code: []int{66701}},
 	PLZ{Name: "Bexbach", Code: []int{66450}},
 	PLZ{Name: "Blieskastel", Code: []int{66440}},

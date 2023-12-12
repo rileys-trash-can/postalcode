@@ -1,6 +1,6 @@
 package plz
 
-var baden_wurttemberg_map = map[string]PLZ{
+var Baden_wurttemberg_map = map[string]PLZ{
 	"Aach":                                PLZ{Name: "Aach", Code: []int{78267}},
 	"Aalen":                               PLZ{Name: "Aalen", Code: []int{73430, 73431, 73432, 73433, 73434}},
 	"Abstatt":                             PLZ{Name: "Abstatt", Code: []int{74232}},
@@ -1192,7 +1192,7 @@ var baden_wurttemberg_map = map[string]PLZ{
 	"Zwiefalten":                          PLZ{Name: "Zwiefalten", Code: []int{88529}},
 	"Zwingenberg":                         PLZ{Name: "Zwingenberg", Code: []int{69439}},
 }
-var baden_wurttemberg_slice = []PLZ{
+var Baden_wurttemberg_slice = []PLZ{
 	PLZ{Name: "Aach", Code: []int{78267}},
 	PLZ{Name: "Aalen", Code: []int{73430, 73431, 73432, 73433, 73434}},
 	PLZ{Name: "Abstatt", Code: []int{74232}},

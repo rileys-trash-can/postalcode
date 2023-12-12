@@ -1,6 +1,6 @@
 package plz
 
-var sachsen_map = map[string]PLZ{
+var Sachsen_map = map[string]PLZ{
 	"Adorf":                             PLZ{Name: "Adorf", Code: []int{8626}},
 	"Altenberg":                         PLZ{Name: "Altenberg", Code: []int{1773}},
 	"Altmittweida":                      PLZ{Name: "Altmittweida", Code: []int{9648}},
@@ -592,7 +592,7 @@ var sachsen_map = map[string]PLZ{
 	"Zwonitz":                           PLZ{Name: "Zwonitz", Code: []int{8297}},
 	"Zwota":                             PLZ{Name: "Zwota", Code: []int{8267}},
 }
-var sachsen_slice = []PLZ{
+var Sachsen_slice = []PLZ{
 	PLZ{Name: "Adorf", Code: []int{8626}},
 	PLZ{Name: "Altenberg", Code: []int{1773}},
 	PLZ{Name: "Altmittweida", Code: []int{9648}},

@@ -1,6 +1,6 @@
 package plz
 
-var sachsen_anhalt_map = map[string]PLZ{
+var Sachsen_anhalt_map = map[string]PLZ{
 	"Abbenrode":                      PLZ{Name: "Abbenrode", Code: []int{38871}},
 	"Abberode":                       PLZ{Name: "Abberode", Code: []int{6543}},
 	"Abtlobnitz":                     PLZ{Name: "Abtlobnitz", Code: []int{6628}},
@@ -1280,7 +1280,7 @@ var sachsen_anhalt_map = map[string]PLZ{
 	"Zuchau":                         PLZ{Name: "Zuchau", Code: []int{39240}},
 	"Zweimen":                        PLZ{Name: "Zweimen", Code: []int{6254}},
 }
-var sachsen_anhalt_slice = []PLZ{
+var Sachsen_anhalt_slice = []PLZ{
 	PLZ{Name: "Abbenrode", Code: []int{38871}},
 	PLZ{Name: "Abberode", Code: []int{6543}},
 	PLZ{Name: "Abtlobnitz", Code: []int{6628}},

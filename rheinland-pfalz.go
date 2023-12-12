@@ -1,6 +1,6 @@
 package plz
 
-var rheinland_pfalz_map = map[string]PLZ{
+var Rheinland_pfalz_map = map[string]PLZ{
 	"Aach":                              PLZ{Name: "Aach", Code: []int{54298}},
 	"Abentheuer":                        PLZ{Name: "Abentheuer", Code: []int{55767}},
 	"Abtweiler":                         PLZ{Name: "Abtweiler", Code: []int{55568}},
@@ -2218,7 +2218,7 @@ var rheinland_pfalz_map = map[string]PLZ{
 	"Zweibrucken":                       PLZ{Name: "Zweibrucken", Code: []int{66482}},
 	"Zweifelscheid":                     PLZ{Name: "Zweifelscheid", Code: []int{54673}},
 }
-var rheinland_pfalz_slice = []PLZ{
+var Rheinland_pfalz_slice = []PLZ{
 	PLZ{Name: "Aach", Code: []int{54298}},
 	PLZ{Name: "Abentheuer", Code: []int{55767}},
 	PLZ{Name: "Abtweiler", Code: []int{55568}},

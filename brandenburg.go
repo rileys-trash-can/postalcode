@@ -1,6 +1,6 @@
 package plz
 
-var brandenburg_map = map[string]PLZ{
+var Brandenburg_map = map[string]PLZ{
 	"Ahrensfelde":                            PLZ{Name: "Ahrensfelde", Code: []int{16356}},
 	"Alt Krussow":                            PLZ{Name: "Alt Krussow", Code: []int{16921, 16928}},
 	"Alt Ruppin":                             PLZ{Name: "Alt Ruppin", Code: []int{16827}},
@@ -1193,7 +1193,7 @@ var brandenburg_map = map[string]PLZ{
 	"Zossen":                                 PLZ{Name: "Zossen", Code: []int{15806}},
 	"Zuhlsdorf":                              PLZ{Name: "Zuhlsdorf", Code: []int{16515}},
 }
-var brandenburg_slice = []PLZ{
+var Brandenburg_slice = []PLZ{
 	PLZ{Name: "Ahrensfelde", Code: []int{16356}},
 	PLZ{Name: "Alt Krussow", Code: []int{16921, 16928}},
 	PLZ{Name: "Alt Ruppin", Code: []int{16827}},

@@ -1,6 +1,6 @@
 package plz
 
-var nordrhein_westfalen_map = map[string]PLZ{
+var Nordrhein_westfalen_map = map[string]PLZ{
 	"Aachen":                      PLZ{Name: "Aachen", Code: []int{52062, 52064, 52066, 52068, 52070, 52072, 52074, 52076, 52078, 52080}},
 	"Ahaus":                       PLZ{Name: "Ahaus", Code: []int{48683}},
 	"Ahlen":                       PLZ{Name: "Ahlen", Code: []int{59227, 59229}},
@@ -422,7 +422,7 @@ var nordrhein_westfalen_map = map[string]PLZ{
 	"Xanten":                      PLZ{Name: "Xanten", Code: []int{46509}},
 	"Zulpich":                     PLZ{Name: "Zulpich", Code: []int{53909}},
 }
-var nordrhein_westfalen_slice = []PLZ{
+var Nordrhein_westfalen_slice = []PLZ{
 	PLZ{Name: "Aachen", Code: []int{52062, 52064, 52066, 52068, 52070, 52072, 52074, 52076, 52078, 52080}},
 	PLZ{Name: "Ahaus", Code: []int{48683}},
 	PLZ{Name: "Ahlen", Code: []int{59227, 59229}},

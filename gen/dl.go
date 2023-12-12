@@ -90,13 +90,13 @@ func encodeGO(name, path string, plz []plz.PLZ) {
 	fmt.Fprintf(f, `package plz
 
 var %s_map = map[string]PLZ{
-`, name)
+`, strings.Title(name))
 	for _, plz := range plz {
 		fmt.Fprintf(f, "\"%s\": %s,\n", plz.Name, goenc(plz))
 	}
 
 	fmt.Fprint(f, "}\n")
-	fmt.Fprintf(f, "var %s_slice = []PLZ{\n", name)
+	fmt.Fprintf(f, "var %s_slice = []PLZ{\n", strings.Title(name))
 	for _, plz := range plz {
 		fmt.Fprintf(f, "%s,\n", goenc(plz))
 	}

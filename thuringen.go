@@ -1,6 +1,6 @@
 package plz
 
-var thuringen_map = map[string]PLZ{
+var Thuringen_map = map[string]PLZ{
 	"Abtsbessingen":                     PLZ{Name: "Abtsbessingen", Code: []int{99713}},
 	"Ahlstadt":                          PLZ{Name: "Ahlstadt", Code: []int{98553}},
 	"Albersdorf":                        PLZ{Name: "Albersdorf", Code: []int{7646}},
@@ -999,7 +999,7 @@ var thuringen_map = map[string]PLZ{
 	"Zollnitz":                          PLZ{Name: "Zollnitz", Code: []int{7751}},
 	"Zwinge":                            PLZ{Name: "Zwinge", Code: []int{37345}},
 }
-var thuringen_slice = []PLZ{
+var Thuringen_slice = []PLZ{
 	PLZ{Name: "Abtsbessingen", Code: []int{99713}},
 	PLZ{Name: "Ahlstadt", Code: []int{98553}},
 	PLZ{Name: "Albersdorf", Code: []int{7646}},

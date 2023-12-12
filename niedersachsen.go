@@ -1,6 +1,6 @@
 package plz
 
-var niedersachsen_map = map[string]PLZ{
+var Niedersachsen_map = map[string]PLZ{
 	"Achim":                            PLZ{Name: "Achim", Code: []int{28832, 38312}},
 	"Adelebsen":                        PLZ{Name: "Adelebsen", Code: []int{37139}},
 	"Adelheidsdorf":                    PLZ{Name: "Adelheidsdorf", Code: []int{29352}},
@@ -1604,7 +1604,7 @@ var niedersachsen_map = map[string]PLZ{
 	"Zeven":                                     PLZ{Name: "Zeven", Code: []int{27404}},
 	"Zorge":                                     PLZ{Name: "Zorge", Code: []int{37449}},
 }
-var niedersachsen_slice = []PLZ{
+var Niedersachsen_slice = []PLZ{
 	PLZ{Name: "Achim", Code: []int{28832, 38312}},
 	PLZ{Name: "Adelebsen", Code: []int{37139}},
 	PLZ{Name: "Adelheidsdorf", Code: []int{29352}},
